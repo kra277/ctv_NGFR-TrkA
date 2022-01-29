@@ -95,7 +95,6 @@ sample_set <- RUVg(set, empirical, k=2)
 
 
 # Generating the correlation matrix
-set <- sample_set
 
 bc_corr_plot(bc_method = "ruv", var_int = "Group", font_size = 1)
 
@@ -162,6 +161,7 @@ res_deg_sva <- clean_deseq_res(de_sva_res)
 
 
 # Save the results as .Rdata to be used
+usethis::use_data(sample_deseq_data, overwrite = TRUE)
 usethis::use_data(sample_deseq_res, overwrite = TRUE)
 usethis::use_data(sample_clean_deg, overwrite = TRUE)
 usethis::use_data(sample_vst_dd, overwrite = TRUE)

@@ -16,7 +16,7 @@ pca_prep <- function(norm_dat, var_int, ntop = 1000) {
   ntop = ntop
 
   # Rename variable of interest into var_int
-  df_req <- colData(norm_dat) %>%
+  df_req <- SummarizedExperiment::colData(norm_dat) %>%
     as.data.frame() %>%
     dplyr::rename("var_int"= all_of(var_int))
 

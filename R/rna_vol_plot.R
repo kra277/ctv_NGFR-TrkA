@@ -13,7 +13,7 @@
 #' @examples
 #' # for using adjusted p values and highlight values less than 0.05
 #' caption <- "Data Source: \n Sample Data"
-#' rna_vol_plot(clean_deg, p = padj, val = 0.05)
+#' rna_vol_plot(sample_clean_deg, p = padj, val = 0.05)
 #'
 #' # for using un - adjusted p values and highlight values less than 0.05
 #' rna_vol_plot(sample_clean_deg, p = pvalue, val = 0.05)

@@ -1,10 +1,8 @@
 Package: rnaseqviz
 Title: A set functions that help in organizing, and visualizing RNA seq results.
-Version: 0.0.0.9000
 Authors@R: 
     person("Kesava", "Asam", , "kra277@nyu.edu", role = c("aut", "cre"))
-Description: A set functions written for using in Dr. Aouzierat lab. 
-These functions are used in sorting, organizing, and visualizing RNA seq results generated using \code{\link{DESeq2}}.
+Description: A set functions written for using in Dr. Aouzierat lab. These functions are used in sorting, organizing, and visualizing RNA seq results generated using \code{\link{DESeq2}}.
 Version: 0.0.0.9000
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -17,4 +15,5 @@ Imports:
     dplyr,
     Homo.sapiens,
     ggplot2,
-    corrplot
+    corrplot,
+    magrittr
