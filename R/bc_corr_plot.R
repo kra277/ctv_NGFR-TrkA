@@ -8,16 +8,23 @@
 #' @param var_int is the variable of interest, this is assuming you only have one variable of interest.
 #' @param font_size correlation font size inside each box.
 #'
-#' @return
+#' @return A correlation plot in the plottin window along with the matrix used to create the plot.
 #' @export
 #'
 #' @examples
 #'
+#'# Only execute after running RUV batch correction
 #'
-#' # After running SVA
+#'\dontrun{
+#'bc_corr_plot(bc_method = "ruv", var_int = "Group", font_size = 1)
+#'}
 #'
 #'
-#' bc_corr_plot(bc_method = "sva", var_int = "Group", font_size = 1)
+#'# Only execute after running SVA batch correction
+#'
+#'\dontrun{
+#'bc_corr_plot(bc_method = "sva", var_int = "Group", font_size = 1)
+#'}
 #'
 #'
 bc_corr_plot <-
