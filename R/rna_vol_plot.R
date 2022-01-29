@@ -3,7 +3,7 @@
 #' @description Function for creating the volcano plots from DEG RNA seq data frames.
 #' Note: Default parameters would highlight the lo2foldchanges > |0.5|.
 #'
-#' @param df data frame with differential gene expression with P values and Log fold changes
+#' @param df data frame with differential gene expression with P values and Log fold changes. Deseq2 DEG results.
 #' @param p pvalue (un adjusted) or padj (adjusted p value). Default is adjusted p value (padj).
 #' @param val threshold to be colored. Default is 0.1.
 #'

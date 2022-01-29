@@ -5,9 +5,9 @@
 #' Steps involved:
 #' \enumerate{
 #'
-#'   \item Deseq2 results were converted into a data frame.
+#'   \item \code{\link{DESeq2}} results were converted into a data frame.
 #'   \item Row names were converted to the column (ENTREZID).
-#'   \item Q values (FDR) were calculated using the P-values and 'qvalue' package.
+#'   \item Q values (FDR) were calculated using the P-values and \code{\link{qvalue}} package.
 #'   \item ENTREZID were Annotated to get the SYMBOL and GENENAME.
 #'   \item Annotations were merged with results.
 #'   \item The columns were rearranged and the results were arranged based on P values.

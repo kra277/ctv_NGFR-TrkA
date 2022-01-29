@@ -14,7 +14,7 @@ bc_corr_plot(dat, bc_method, var_int = var_int, font_size)
 \item{font_size}{correlation font size inside each box.}
 }
 \value{
-
+A correlation plot in the plottin window along with the matrix used to create the plot.
 }
 \description{
 Function for generating correlation plots for the surrogate variables and the variable of interest.

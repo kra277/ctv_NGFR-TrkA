@@ -1,6 +1,6 @@
 #' @title Prep for PCA plot
 #'
-#' @description pca_prep function uses the vst/log transformed data to make a dataframe that could be used to make a pca plot.
+#' @description pca_prep function uses the vst/log transformed data to make a data frame that could be used to make a pca plot.
 #'
 #' @param norm_dat data frame of normalized gene counts. Generally a made using the \code{\link{DESeq2}}.
 #' @param ntop number of top genes that you need to calculate the PCs. Default is 1000 genes.

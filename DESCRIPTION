@@ -1,10 +1,11 @@
 Package: rnaseqviz
-Title: What the Package Does (One Line, Title Case)
+Title: A set functions that help in organizing, and visualizing RNA seq results.
 Version: 0.0.0.9000
 Authors@R: 
-    person("Kesava", "Asam", , "kra277@nyu.edui", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Kesava", "Asam", , "kra277@nyu.edu", role = c("aut", "cre"))
+Description: A set functions written for using in Dr. Aouzierat lab. 
+These functions are used in sorting, organizing, and visualizing RNA seq results generated using DeSeq2.
+Version: 0.0.0.9000
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -12,3 +13,8 @@ RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    dplyr,
+    Homo.sapiens,
+    ggplot2,
+    corrplot

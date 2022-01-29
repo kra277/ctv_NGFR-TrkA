@@ -5,10 +5,10 @@
 #'@description Function for generating correlation plots for the surrogate variables and the variable of interest.
 #'
 #' @param bc_method Which batch correction method was performed. Two option, ruv and sva.
-#' @param var_int is the variable of interest, this is assuming you only have one variable of interest.
+#' @param var_int is the variable of interest. This function is limited to only have one variable of interest.
 #' @param font_size correlation font size inside each box.
 #'
-#' @return A correlation plot in the plottin window along with the matrix used to create the plot.
+#' @return A correlation plot in the plotting window along with the matrix used to create the plot.
 #' @export
 #'
 #' @examples
