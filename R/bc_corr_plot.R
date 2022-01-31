@@ -28,11 +28,11 @@
 #'
 #'
 bc_corr_plot <-
-  function(dat, bc_method, var_int = var_int, font_size) {
+  function(bc_method, var_int = var_int, font_size) {
 
     # Get all the Phenotypes of interest
     pheno <-
-      sample_colData %>%
+      colData %>%
       dplyr::rename("variable"= {{var_int}}) %>%
       dplyr::select(variable) %>%
       dplyr::mutate(variable = as.numeric(variable)) %>%
